@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulär</title>
+</head>
+
+<body>
+    <h1>Formulär</h1>
+    <a href="media.html">Till mediasidan</a>
+
+
+    <form>
+
+        <fieldset>
+            <legend>Personlig information:</legend>
+            <label for="name">Ditt namn:</label>
+            <br>
+            <input type="text" name="name" id="name" placeholder="Ange ditt namn här...">
+
+            <br><br>
+
+            <label for="email">Din E-post:</label>
+            <br>
+            <input type="email" name="email" id="email" placeholder="Ange din e-post..." required>
+
+            <br><br>
+
+            <label for="customer-status">Kundstatus:</label><br>
+            <select name="customer-status" id="customer-status" required>
+                <option value="" disabled selected>Ange din status...</option>
+                <option value="is-customer">Ja är kund</option>
+                <option value="not-customer">Nej, jag är inte kund</option>
+            </select>
+        </fieldset>
+        <br><br>
+
+        <input type="checkbox" name="car1" id="volvo" value="volvo">
+        <label for="volvo">Jag kör Volvo</label>
+        <br>
+        <input type="checkbox" name="car2" id="saab" value="saab">
+        <label for="saab">Jag kör Saab</label>
+        <br>
+        <input type="checkbox" name="car3" id="audi" value="audi">
+        <label for="audi">Jag kör Audi 🚗</label>
+
+        <br><br>
+
+        <input type="radio" name="car" id="bmw" value="bmw">
+        <label for="bmw">Jag kör BMW</label>
+        <br>
+
+        <input type="radio" name="car" id="opel" value="opel">
+        <label for="opel">Jag kör opel</label>
+
+        <br>
+
+        <input type="radio" name="car" id="kia" value="kia">
+        <label for="kia">Jag kör Kia</label>
+
+        <br><br>
+
+        <input type="week" name="date" id="date">
+
+        <br><br>
+
+        <input type="color" name="color" id="color">
+        <br><br>
+
+        <input type="file" name="file" id="file">
+
+        <br><br>
+
+        <input type="range" name="" id="">
+
+        <br><br>
+        <input type="password" name="" id="">
+
+        <br><br>
+
+
+        <label for="message">Ditt meddelande:</label>
+        <br>
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="Skriv ditt meddelande här..."></textarea>
+        <br>
+        <input type="submit" value="Skicka meddelandet">
+    </form>
+
+</body>
+
+</html>
