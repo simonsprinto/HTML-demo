@@ -1,17 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+:root {
+    --dark: #000;
+    --accent: rgb(16, 79, 16);
+    --font1: 'Roboto', sans-serif;
+    --font2: Arial, Helvetica, sans-serif;
+}
+
+/* CSS-reset */
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
-    background-color: aquamarine;
+    background-color: rgb(39, 39, 39);
 }
 
 h1 {
-    color: deeppink;
+    color: #F8F8F8;
+    font-family: var(--font2);
 }
 
 p {
     font-size: 2em;
+    color: #F8F8F8;
+    font-family: var(--font1);
+    font-weight: 400;
 }
 
 .text {
@@ -20,4 +36,23 @@ p {
 
 #punkt1 {
     color: red;
+}
+
+.wrapper {
+    background-color: deeppink;
+    width: 50%;
+}
+
+.container1 {
+    background-color: yellowgreen;
+    width: 50%;
+}
+
+.container2 {
+    background-color: purple;
+    width: 100%;
+}
+
+br {
+    margin: 25px;
 }
